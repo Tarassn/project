@@ -1,7 +1,6 @@
 {
   "name": "projectx",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
@@ -36,5 +35,6 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0"
-  }
+  },
+  "description": ""
 }
