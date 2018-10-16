@@ -370,7 +370,7 @@ h1 {
   width: 80px; }
 
 .header__nav {
-  width: 500px;
+  width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,7 +425,17 @@ main {
   color: #282828; }
 
 .our-work {
-  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 700px;
   background-color: #fff;
   padding: 50px 5%;
   -webkit-box-sizing: border-box;
@@ -434,8 +444,84 @@ main {
 .our-work h2 {
   font-size: 350%; }
 
+.our-work h3 {
+  font-size: 200%; }
+
 .our-work__red-square {
   width: 160px;
   height: 15px;
   background-color: #f00; }
+
+.our-work__sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  padding-bottom: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.our-work__sections section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 300px;
+  width: 33%; }
+
+.cases {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: center #fff;
+  background-size: cover; }
+
+.cases__text {
+  width: 80%;
+  line-height: 1;
+  font-size: 250%;
+  color: #fff; }
+  .cases__text a {
+    display: inline-block;
+    padding: 10px 40px 9px;
+    font-size: 50%;
+    line-height: 1.1;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f00; }
+
+.cases-arrows {
+  padding: 10px;
+  font-size: 200%;
+  font-weight: 400;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #f00;
+  text-align: center;
+  cursor: pointer; }
 

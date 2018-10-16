@@ -1,6 +1,14 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
+    entry: {
+        index: './src/index.js',
+        about: './src/about.js'
+    },
+    output: {
+        filename: '[name].js',
+        path: __dirname + '/dist'
+    },
     module: {
         rules: [
             {
@@ -18,7 +26,7 @@ module.exports = {
                 test: /\.(png|jpe?g)/i,
                 use: [
                     {
-                        loader: "url-loader",
+                        loader: "file-loader",
                         options: {
                             name: "./img/[name].[ext]",
                             limit: 10000
@@ -42,9 +50,20 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "src/index.html",
-            filename: "./index.html"
+            template: "./src/index.html",
+            filename: "./index.html",
+            title: 'main',
+            myPageHeader: 'Main',
+            chunks:['index']
         }),
+        new HtmlWebPackPlugin({
+            template: "./src/about.html",
+            filename: "./about.html",
+            title: 'about',
+            myPageHeader: 'About',
+            chunks:['about']
+        }),
+
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
