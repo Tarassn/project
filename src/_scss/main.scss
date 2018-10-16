@@ -150,6 +150,9 @@ a{
   text-decoration: none;
   background-color: $color-red;
 }
+  a:hover{
+    opacity: 0.7;
+  }
 }
 .cases-arrows {
   padding: 10px;
@@ -168,10 +171,9 @@ a{
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
-  flex-wrap: wrap;
   img{
-    width: 250px;
-    margin: 0 30px;
+    width: 22%;
+    margin: 10px 2px;
   }
 }
 
