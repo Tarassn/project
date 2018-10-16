@@ -1,8 +1,12 @@
-console.log(`I've been required by Webpack`);
 import style from "./_scss/main.scss";
+import layer1 from "./img/layer1.png";
+import layer2 from "./img/layer2.png";
+import layer3 from "./img/layer3.png";
+import layer4 from "./img/layer4.png";
+import video from './videos/mainProjectX.mp4';
 
 let casesSlider = {
-    slides:['layer1.png','layer2.png','layer3.png','layer4.png'],
+    slides:[layer1,layer2,layer3,layer4],
     insideText:[
         ['OBERIG', 'Сила в тобі'],
         ['Лаферобреон', 'Биофарма'],
@@ -13,7 +17,7 @@ let casesSlider = {
     frame:0,
     element: document.getElementById("casesText"),
     set: function(image) {
-        this.element.parentNode.style.backgroundImage = "url(src/img/"+image+")";
+        this.element.parentNode.style.backgroundImage = "url("+image+")";
         this.element.childNodes[3].innerHTML=this.insideText[this.frame][0];
         this.element.childNodes[5].innerHTML=this.insideText[this.frame][1];
 

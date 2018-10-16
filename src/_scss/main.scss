@@ -160,5 +160,19 @@ a{
   text-align: center;
   cursor: pointer;
 }
+.partners{
+  width: 100%;
+  background-color: $color-white;
+  display: flex;
+  margin-top: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  img{
+    width: 250px;
+    margin: 0 30px;
+  }
+}
 
 
