@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8599e134-9c22-4768-90bf-4fb27cd5f843" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/partners1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/partners9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8b9cd4cf91f09e4838d2a4c4e0c7e856.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/bigger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/smaller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/video/main projectX.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/videos/mainProjectX.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -86,7 +69,6 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/_scss/styles.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/about.html" />
         <option value="$PROJECT_DIR$/src/_scss/about.scss" />
         <option value="$PROJECT_DIR$/src/about.js" />
@@ -95,6 +77,7 @@
         <option value="$PROJECT_DIR$/dist/index.css" />
         <option value="$PROJECT_DIR$/src/_scss/main.scss" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,17 +113,6 @@
             <path>
               <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
@@ -198,12 +170,12 @@
       <updated>1539333692588</updated>
       <workItem from="1539333693828" duration="3221000" />
       <workItem from="1539337789859" duration="20021000" />
-      <workItem from="1539612519297" duration="19075000" />
+      <workItem from="1539612519297" duration="19369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42317000" />
+    <option name="totallyTimeSpent" value="42611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="35" width="1264" height="771" extended-state="0" />
@@ -334,7 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/dist/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -511,6 +482,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
