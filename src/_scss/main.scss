@@ -189,16 +189,22 @@ a{
     font-weight: lighter;
   }
 }
+.partners-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .partners__logos {
-    width:90%;
+    width:99%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin: 30px 0;
+    margin: 70px 0;
     box-sizing: border-box;
+  flex-wrap: wrap;
     img {
-      width: 15%;
+      width: 22%;
       margin: 10px 2px;
       filter: grayscale(100%);
     }
@@ -214,7 +220,6 @@ a{
 }
 @media screen and (max-width: 600px){
   .partners__logos{
-    flex-wrap: wrap;
     img{
       width: 50%;
       margin: 20px 0;

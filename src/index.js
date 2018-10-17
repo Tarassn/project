@@ -4,6 +4,32 @@ import layer2 from "./img/layer2.png";
 import layer3 from "./img/layer3.png";
 import layer4 from "./img/layer4.png";
 import video from './videos/mainProjectX.mp4';
+import partner1 from "./img/partners/partners1.png";
+import partner2 from "./img/partners/partners2.png";
+import partner3 from "./img/partners/partners3.png";
+import partner4 from "./img/partners/partners4.png";
+import partner5 from "./img/partners/partners5.png";
+import partner6 from "./img/partners/partners6.png";
+import partner7 from "./img/partners/partners7.png";
+import partner8 from "./img/partners/partners8.png";
+import partner9 from "./img/partners/partners9.png";
+import partner10 from "./img/partners/partners10.png";
+import partner11 from "./img/partners/partners11.png";
+import partner12 from "./img/partners/partners12.png";
+import partner13 from "./img/partners/partners13.png";
+import partner14 from "./img/partners/partners14.png";
+import partner15 from "./img/partners/partners15.png";
+import partner16 from "./img/partners/partners16.png";
+import partner17 from "./img/partners/partners17.png";
+import partner18 from "./img/partners/partners18.png";
+import partner19 from "./img/partners/partners19.png";
+import partner20 from "./img/partners/partners20.png";
+import partner21 from "./img/partners/partners21.png";
+import partner22 from "./img/partners/partners22.png";
+import partner23 from "./img/partners/partners23.png";
+import partner24 from "./img/partners/partners24.png";
+
+
 
 let casesSlider = {
     slides:[layer1,layer2,layer3,layer4],
@@ -47,14 +73,59 @@ let casesSlider = {
         }, 5000)
     }
 };
+
+let partnersSlider = {
+    partners:[partner1,partner2,partner3,partner4,partner5,partner6,partner7,partner8,partner9,partner10,partner11,
+        partner12,partner13,partner14,partner15,partner16,partner17,partner18,partner19,partner20,
+        partner21,partner22,partner23,partner24],
+    count:0,
+    adder:0,
+    elements:document.querySelectorAll('[class="partners__logos"] > img'),
+    set: function() {
+        for(let i=0;i < 8;i++){
+         this.elements[i].src = this.partners[i + this.adder]
+        }
+    },
+    start: function() {
+        this.set();
+        this.count++;
+        if(this.count>3){
+            this.count=1;
+        }
+        this.adder=this.count*8
+        if (this.adder>16){
+            this.adder=0;
+        }
+    },
+    left: function() {
+        this.count--;
+        if(this.count < 0){
+            this.count = 3
+        }
+        this.set();
+    },
+    right: function() {
+        this.start()
+    },
+};
+
 document.addEventListener("DOMContentLoaded", function() {
-    let leftButton=document.getElementById("casesLeftButton");
-    let rightButton=document.getElementById("casesRightButton");
-    rightButton.addEventListener("click", function (){casesSlider.right()});
-    leftButton.addEventListener("click", function (){casesSlider.left()});
+    // cases slider listeners
+    let casesLeftButton=document.getElementById("casesLeftButton");
+    let casesRightButton=document.getElementById("casesRightButton");
+    casesRightButton.addEventListener("click", function (){casesSlider.right()});
+    casesLeftButton.addEventListener("click", function (){casesSlider.left()});
+
+    // partners slider listeners
+    let partnersLeftButton=document.getElementById("partnersLeftButton");
+    let partnersRightButton=document.getElementById("partnersRightButton");
+    partnersLeftButton.addEventListener("click", function (){partnersSlider.left()});
+    partnersRightButton.addEventListener("click", function (){partnersSlider.right()});
 });
+
 
 window.onload = function() {
     casesSlider.start();
     casesSlider.timer;
+    partnersSlider.start()
 };
