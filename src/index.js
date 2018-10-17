@@ -82,6 +82,10 @@ let partnersSlider = {
     adder:0,
     elements:document.querySelectorAll('[class="partners__logos"] > img'),
     set: function() {
+        this.adder=this.count*8
+        if (this.adder>16){
+            this.adder=0;
+        }
         for(let i=0;i < 8;i++){
          this.elements[i].src = this.partners[i + this.adder]
         }
@@ -89,24 +93,31 @@ let partnersSlider = {
     start: function() {
         this.set();
         this.count++;
-        if(this.count>3){
-            this.count=1;
-        }
-        this.adder=this.count*8
-        if (this.adder>16){
-            this.adder=0;
+        if(this.count>2){
+            this.count=0;
         }
     },
     left: function() {
         this.count--;
         if(this.count < 0){
-            this.count = 3
+            this.count = 2
         }
         this.set();
+        this.resetTimer();
     },
     right: function() {
-        this.start()
+        this.start();
+        this.resetTimer();
     },
+    timer: setInterval(function() {
+        partnersSlider.right();
+    },7000),
+    resetTimer: function() {
+        clearInterval(this.timer);
+        this.timer = setInterval(function () {
+            partnersSlider.right();
+        }, 7000)
+    }
 };
 
 document.addEventListener("DOMContentLoaded", function() {
