@@ -572,6 +572,9 @@ main {
       -ms-flex-align: center;
           align-items: center; }
 
+.partners-arrows {
+  cursor: pointer; }
+
 .partners__logos {
   width: 99%;
   display: -webkit-box;
