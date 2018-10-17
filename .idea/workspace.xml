@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8599e134-9c22-4768-90bf-4fb27cd5f843" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/partners/partners8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/partners9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="8599e134-9c22-4768-90bf-4fb27cd5f843" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -206,16 +190,15 @@
       <updated>1539333692588</updated>
       <workItem from="1539333693828" duration="3221000" />
       <workItem from="1539337789859" duration="20021000" />
-      <workItem from="1539612519297" duration="34589000" />
+      <workItem from="1539612519297" duration="34846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57831000" />
+    <option name="totallyTimeSpent" value="58088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="23" width="1264" height="771" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939662" />
       <window_info anchor="bottom" id="TODO" order="6" />
