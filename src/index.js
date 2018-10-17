@@ -92,10 +92,7 @@ let partnersSlider = {
     },
     start: function() {
         this.set();
-        this.count++;
-        if(this.count>2){
-            this.count=0;
-        }
+
     },
     left: function() {
         this.count--;
@@ -107,6 +104,10 @@ let partnersSlider = {
     },
     right: function() {
         this.start();
+        this.count++;
+        if(this.count>2){
+            this.count=0;
+        }
         this.resetTimer();
     },
     timer: setInterval(function() {
