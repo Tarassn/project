@@ -126,6 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.onload = function() {
     casesSlider.start();
+    partnersSlider.start();
     casesSlider.timer;
-    partnersSlider.start()
+
 };
