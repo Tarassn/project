@@ -51,6 +51,7 @@ h1{
   width: 80px;
 }
 .header__nav{
+  position: relative;
   width: 400px;
   display: flex;
   flex-direction: row;
@@ -60,20 +61,41 @@ h1{
 
 .navigation__buttons_href{
   color:$color-white;
-  height: 80px;
+  position: relative;
   box-sizing: border-box;
   display: inline-flex;
+  height: content-box;
   align-items: center;
   cursor: pointer;
+  padding: 5px 10px;
   text-transform: uppercase;
+  a{
+    text-decoration: none;
+    color:$color-white;
+  }
 }
 .navigation__buttons_href :hover{
   color:$color-red;
 }
-.navigation__buttons_href:before{
-  content: '|';
-  padding: 0 20px;
+
+.header__nav_submenu{
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  list-style: none;
+  padding: 0;
 }
+.header__nav_submenu > li > a:hover {
+  text-decoration: underline;
+}
+.navigation__buttons_href:hover > .header__nav_submenu{
+  display: block;
+}
+//.navigation__buttons_href:before{
+//  content: '|';
+//  padding: 0 20px;
+//}
 .navigation__buttons_href:first-child:before{
   content: none;
 }
@@ -104,10 +126,11 @@ main{
   box-sizing: border-box;
 }
 .our-work h2{
-  font-size: 350%;
+  font-size: 300%;
 }
 .our-work h3{
   font-size: 200%;
+  margin-bottom: 10px;
 }
 .our-work__red-square{
   width: 160px;
@@ -142,22 +165,21 @@ main{
 .cases__text{
   width: 80%;
   line-height: 1;
-  font-size: 250%;
+  font-size: 220%;
   color: $color-white;
-
-a{
-  display: inline-block;
-  padding: 10px 40px 9px;
-  font-size: 50%;
-  line-height: 1.1;
-  font-weight: bold;
-  white-space: nowrap;
-  color: $color-white;
-  text-decoration: none;
-  background-color: $color-red;
-  cursor: pointer;
-  transition: opacity 200ms;
-}
+    a{
+    display: inline-block;
+    padding: 10px 40px 9px;
+    font-size: 50%;
+    line-height: 1.1;
+    font-weight: bold;
+    white-space: nowrap;
+    color: $color-white;
+    text-decoration: none;
+    background-color: $color-red;
+    cursor: pointer;
+    transition: opacity 200ms;
+  }
   a:hover{
     opacity: 0.9;
 
@@ -180,12 +202,13 @@ a{
   width: 100%;
   padding: 60px 8%;
   box-sizing: border-box;
-  font-size: 250%;
+  font-size: 200%;
   h2{
     margin: 0;
   }
   h3{
     margin: 0;
+    font-size: 80%;
     font-weight: lighter;
   }
 }
@@ -196,6 +219,10 @@ a{
 }
 .partners-arrows{
   cursor: pointer;
+  font-family: "PT Sans Narrow", sans-serif;
+  display: block;
+  width: 30px;
+  text-align: center;
 }
 .partners__logos {
     width:99%;
@@ -216,12 +243,13 @@ a{
   .header__nav{
 
   }
+
+}
+@media screen and (max-width: 600px){
   .navigation__buttons_href:before{
     content: none;
     padding: 0 0;
   }
-}
-@media screen and (max-width: 600px){
   .partners__logos{
     img{
       width: 50%;

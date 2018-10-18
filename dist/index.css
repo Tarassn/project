@@ -370,6 +370,7 @@ h1 {
   width: 80px; }
 
 .header__nav {
+  position: relative;
   width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,24 +388,39 @@ h1 {
 
 .navigation__buttons_href {
   color: #fff;
-  height: 80px;
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  height: content-box;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  padding: 5px 10px;
   text-transform: uppercase; }
+  .navigation__buttons_href a {
+    text-decoration: none;
+    color: #fff; }
 
 .navigation__buttons_href :hover {
   color: #f00; }
 
-.navigation__buttons_href:before {
-  content: '|';
-  padding: 0 20px; }
+.header__nav_submenu {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  list-style: none;
+  padding: 0; }
+
+.header__nav_submenu > li > a:hover {
+  text-decoration: underline; }
+
+.navigation__buttons_href:hover > .header__nav_submenu {
+  display: block; }
 
 .navigation__buttons_href:first-child:before {
   content: none; }
@@ -449,10 +465,11 @@ main {
           box-sizing: border-box; }
 
 .our-work h2 {
-  font-size: 350%; }
+  font-size: 300%; }
 
 .our-work h3 {
-  font-size: 200%; }
+  font-size: 200%;
+  margin-bottom: 10px; }
 
 .our-work__red-square {
   width: 160px;
@@ -510,7 +527,7 @@ main {
 .cases__text {
   width: 80%;
   line-height: 1;
-  font-size: 250%;
+  font-size: 220%;
   color: #fff; }
   .cases__text a {
     display: inline-block;
@@ -553,11 +570,12 @@ main {
   padding: 60px 8%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 250%; }
+  font-size: 200%; }
   .partners h2 {
     margin: 0; }
   .partners h3 {
     margin: 0;
+    font-size: 80%;
     font-weight: lighter; }
 
 .partners-container {
@@ -573,7 +591,11 @@ main {
           align-items: center; }
 
 .partners-arrows {
-  cursor: pointer; }
+  cursor: pointer;
+  font-family: "PT Sans Narrow", sans-serif;
+  display: block;
+  width: 30px;
+  text-align: center; }
 
 .partners__logos {
   width: 99%;
@@ -601,12 +623,10 @@ main {
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%); }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .navigation__buttons_href:before {
     content: none;
-    padding: 0 0; } }
-
-@media screen and (max-width: 600px) {
+    padding: 0 0; }
   .partners__logos img {
     width: 50%;
     margin: 20px 0; } }
