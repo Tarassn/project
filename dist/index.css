@@ -399,7 +399,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 5px 15px;
   text-transform: uppercase; }
   .navigation__buttons_href a {
     text-decoration: none;
@@ -410,17 +410,18 @@ h1 {
 
 .header__nav_submenu {
   display: none;
+  text-transform: none;
   position: absolute;
   top: 15px;
-  left: 10px;
+  left: 0;
   list-style: none;
-  padding: 0; }
-
-.header__nav_submenu > li > a:hover {
-  text-decoration: underline; }
+  padding: 0 15px 15px 15px; }
 
 .navigation__buttons_href:hover > .header__nav_submenu {
   display: block; }
+
+.nav__upLine {
+  pointer-events: none; }
 
 .navigation__buttons_href:first-child:before {
   content: none; }
@@ -429,7 +430,7 @@ h1 {
   font-size: 140%;
   width: 80%;
   padding: 5%;
-  z-index: 5; }
+  z-index: 0; }
 
 .hero__text a {
   color: #f00; }
@@ -567,7 +568,7 @@ main {
           justify-content: center;
   background-color: #fff;
   width: 100%;
-  padding: 60px 8%;
+  padding: 80px 8%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 200%; }
@@ -586,6 +587,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -612,7 +616,7 @@ main {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin: 70px 0;
+  margin: 70px 0 20px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -ms-flex-wrap: wrap;
@@ -622,6 +626,25 @@ main {
     margin: 10px 2px;
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%); }
+
+.partners__circles {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: center;
+      align-self: center; }
+  .partners__circles div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #696969; }
 
 @media screen and (max-width: 600px) {
   .navigation__buttons_href:before {

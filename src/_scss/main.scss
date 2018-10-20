@@ -67,7 +67,7 @@ h1{
   height: content-box;
   align-items: center;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 5px 15px;
   text-transform: uppercase;
   a{
     text-decoration: none;
@@ -80,17 +80,18 @@ h1{
 
 .header__nav_submenu{
   display: none;
+  text-transform: none;
   position: absolute;
   top: 15px;
-  left: 10px;
+  left: 0;
   list-style: none;
-  padding: 0;
-}
-.header__nav_submenu > li > a:hover {
-  text-decoration: underline;
+  padding: 0 15px 15px 15px;
 }
 .navigation__buttons_href:hover > .header__nav_submenu{
   display: block;
+}
+.nav__upLine{
+pointer-events: none;
 }
 //.navigation__buttons_href:before{
 //  content: '|';
@@ -103,7 +104,7 @@ h1{
   font-size: 140%;
   width: 80%;
   padding: 5%;
-  z-index: 5;
+  z-index: 0;
 }
 .hero__text a{
   color: $color-red;
@@ -200,7 +201,7 @@ main{
   justify-content: center;
   background-color: $color-white;
   width: 100%;
-  padding: 60px 8%;
+  padding: 80px 8%;
   box-sizing: border-box;
   font-size: 200%;
   h2{
@@ -215,6 +216,7 @@ main{
 .partners-container{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 .partners-arrows{
@@ -230,7 +232,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin: 70px 0;
+    margin: 70px 0 20px 0;
     box-sizing: border-box;
   flex-wrap: wrap;
     img {
@@ -238,6 +240,19 @@ main{
       margin: 10px 2px;
       filter: grayscale(100%);
     }
+}
+.partners__circles{
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  div{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: $grey2;
+  }
 }
 @media screen and (max-width: 1024px) {
   .header__nav{
