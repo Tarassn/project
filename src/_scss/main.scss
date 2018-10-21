@@ -33,7 +33,7 @@ h1{
   overflow: hidden;
 }
 .header {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.02);
   color:$color-white;
   position: absolute;
   min-height: 80px;
@@ -85,6 +85,7 @@ h1{
   top: 15px;
   left: 0;
   list-style: none;
+  line-height: 1.8;
   padding: 0 15px 15px 15px;
 }
 .navigation__buttons_href:hover > .header__nav_submenu{

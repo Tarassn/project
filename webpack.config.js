@@ -58,7 +58,8 @@ module.exports = {
             filename: "./index.html",
             title: 'main',
             myPageHeader: 'Main',
-            chunks:['index']
+            chunks:['index'],
+            favicon: 'src/img/favicon.ico'
         }),
         new HtmlWebPackPlugin({
             template: "./src/about.html",

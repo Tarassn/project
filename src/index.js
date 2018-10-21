@@ -167,6 +167,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.matchMedia("(min-width: 600px)").matches) {
         burger.navigation.style.display='inline-flex'
         }
+        else if(window.matchMedia("(max-width: 600px)").matches) {
+            burger.navigation.style.display='none'
+        }
     });
 });
 
