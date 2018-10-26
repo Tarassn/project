@@ -380,6 +380,12 @@ footer {
   -webkit-filter: grayscale(60%);
           filter: grayscale(60%); }
 
+@media screen and (max-width: 1024px) {
+  .footer__nav {
+    width: 90%; }
+    .footer__nav .footer__nav_submenu {
+      min-width: 80px; } }
+
 body {
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
