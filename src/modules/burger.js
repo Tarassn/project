@@ -18,17 +18,17 @@
     },
     init:function () {
         burger.element.addEventListener("click", burger.toggleFunc);
-
+        let width = window.innerWidth;
         window.addEventListener("resize", function() {
             if(!burger.touched){
-                let width = window.innerWidth;
-                if($(window).width() !== width){ //for mobile resize
+                if(window.innerWidth !== width){ //for mobile resize
                     if (window.matchMedia("(min-width: 600px)").matches) {
                         burger.navigation.style.display = 'inline-flex'
                     }
                     else if (window.matchMedia("(max-width: 600px)").matches) {
                         burger.navigation.style.display = 'none'
                     }
+                    width = window.innerWidth;
                 }
             }
             burger.touched=true;

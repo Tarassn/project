@@ -82,8 +82,8 @@
       <file leaf-file-name="burger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modules/burger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="244">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -275,12 +275,12 @@
       <workItem from="1539612519297" duration="47547000" />
       <workItem from="1539930312155" duration="2699000" />
       <workItem from="1539965053212" duration="15350000" />
-      <workItem from="1540371663299" duration="21408000" />
+      <workItem from="1540371663299" duration="22022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110246000" />
+    <option name="totallyTimeSpent" value="110860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="23" width="1440" height="730" extended-state="0" />
@@ -623,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/burger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="244">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
