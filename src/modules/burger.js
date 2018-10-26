@@ -20,9 +20,9 @@
         burger.element.addEventListener("click", burger.toggleFunc);
 
         window.addEventListener("resize", function() {
-            let width = window.innerWidth;
             if(!burger.touched){
-                if($(window).width() !== width){
+                let width = window.innerWidth;
+                if($(window).width() !== width){ //for mobile resize
                     if (window.matchMedia("(min-width: 600px)").matches) {
                         burger.navigation.style.display = 'inline-flex'
                     }
