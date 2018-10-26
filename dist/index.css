@@ -314,7 +314,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   color: #fff;
   background-color: #28323c;
   font-size: 80%;

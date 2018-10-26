@@ -6,8 +6,8 @@ $color-black: #282828;
 $grey2: #696969;
 $footer-background:#28323c;
 $font-main: 'Fira Sans', sans-serif;
-$box-shadow1:2px 2px 6px white;
-$box-shadow2:0px 1px 9px -1px white;
+$box-shadow1:2px 2px 6px $grey2;
+$box-shadow2:0px 1px 9px -5px $footer-background;
 @mixin buttonmix($color, $border){
   background-color: $color;
   border-radius: $border;

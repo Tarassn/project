@@ -502,7 +502,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   color: #fff;
   background-color: #28323c;
   font-size: 80%;
@@ -597,7 +597,9 @@ main {
     font-size: 200%; }
 
 .header {
-  background: rgba(0, 0, 0, 0);
+  background: white;
+  -webkit-box-shadow: 0px 1px 9px -5px #28323c;
+          box-shadow: 0px 1px 9px -5px #28323c;
   color: #f00; }
 
 .navigation__buttons_href a {
