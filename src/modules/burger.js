@@ -20,12 +20,15 @@
         burger.element.addEventListener("click", burger.toggleFunc);
 
         window.addEventListener("resize", function() {
-            if(!burger.touched) {
-                if (window.matchMedia("(min-width: 600px)").matches) {
-                    burger.navigation.style.display = 'inline-flex'
-                }
-                else if (window.matchMedia("(max-width: 600px)").matches) {
-                    burger.navigation.style.display = 'none'
+            let width = window.innerWidth;
+            if(!burger.touched){
+                if($(window).width() !== width){
+                    if (window.matchMedia("(min-width: 600px)").matches) {
+                        burger.navigation.style.display = 'inline-flex'
+                    }
+                    else if (window.matchMedia("(max-width: 600px)").matches) {
+                        burger.navigation.style.display = 'none'
+                    }
                 }
             }
             burger.touched=true;

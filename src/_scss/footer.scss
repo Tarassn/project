@@ -50,3 +50,11 @@ footer{
   width: 70px;
   filter:grayscale(60%);
 }
+@media screen and (max-width: 1024px) {
+  .footer__nav{
+     width: 90%;
+    .footer__nav_submenu{
+     min-width: 80px;
+    }
+  }
+}
