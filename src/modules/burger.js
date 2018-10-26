@@ -18,7 +18,7 @@
     },
     init:function () {
         burger.element.addEventListener("click", burger.toggleFunc);
-        let width = window.innerWidth;
+        let width = window.innerWidth; //for mobile resize
         window.addEventListener("resize", function() {
             if(!burger.touched){
                 if(window.innerWidth !== width){ //for mobile resize
