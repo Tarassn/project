@@ -29,6 +29,8 @@ import partner22 from "./img/partners/partners22.png";
 import partner23 from "./img/partners/partners23.png";
 import partner24 from "./img/partners/partners24.png";
 
+import burger from './modules/burger';
+
 
 
 let casesSlider = {
@@ -44,8 +46,8 @@ let casesSlider = {
     element: document.getElementById("casesText"),
     set: function(image) {
         this.element.parentNode.style.backgroundImage = "url("+image+")";
-        this.element.childNodes[3].innerHTML=this.insideText[this.frame][0];
-        this.element.childNodes[5].innerHTML=this.insideText[this.frame][1];
+        this.element.children[1].innerHTML=this.insideText[this.frame][0];
+        this.element.children[2].innerHTML=this.insideText[this.frame][1];
 
     },
     start: function() {
@@ -129,24 +131,6 @@ let partnersSlider = {
     }
 };
 
-let burger={
-    element: document.getElementById("header__burger"),
-    navigation:document.getElementById('headerNav'),
-    toggleFunc: function () {
-    burger.element.classList.toggle("open");
-    burger.changeNav();
-    },
-    changeNav:function () {
-         if(burger.element.classList.contains('open')){
-         this.navigation.style.display='inline-flex';
-         }
-         else{
-             this.navigation.style.display='none'
-         }
-
-    }
-
-};
 
 document.addEventListener("DOMContentLoaded", function() {
     // cases slider listeners
@@ -162,15 +146,7 @@ document.addEventListener("DOMContentLoaded", function() {
     partnersRightButton.addEventListener("click", function (){partnersSlider.right()});
 
     // burger menu
-    burger.element.addEventListener("click", burger.toggleFunc);
-    window.addEventListener("resize", function() {
-        if (window.matchMedia("(min-width: 600px)").matches) {
-        burger.navigation.style.display='inline-flex'
-        }
-        else if(window.matchMedia("(max-width: 600px)").matches) {
-            burger.navigation.style.display='none'
-        }
-    });
+burger.init();
 });
 
 
@@ -178,5 +154,4 @@ window.onload = function() {
     casesSlider.start();
     partnersSlider.start();
     casesSlider.timer;
-
 };

@@ -1,9 +1,17 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+
+let fs = require('fs');
+
+const header = fs.readFileSync(__dirname + '/src/templates/header.html');
+const footer = fs.readFileSync(__dirname + '/src/templates/footer.html');
+
 module.exports = {
     entry: {
         index: './src/index.js',
-        about: './src/about.js'
+        about: './src/about.js',
+        contacts: './src/contacts.js'
     },
     output: {
         filename: '[name].js',
@@ -21,6 +29,10 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },
+            {
+                test: /\.(pug|jade)$/,
+                loader: 'pug-loader'
             },
             {
                 test: /\.(png|jpe?g)/i,
@@ -59,7 +71,6 @@ module.exports = {
             title: 'main',
             myPageHeader: 'Main',
             chunks:['index'],
-            favicon: 'src/img/favicon.ico'
         }),
         new HtmlWebPackPlugin({
             template: "./src/about.html",
@@ -67,6 +78,15 @@ module.exports = {
             title: 'about',
             myPageHeader: 'About',
             chunks:['about']
+        }),
+        new HtmlWebPackPlugin({
+            template: "./src/contacts.html",
+            header:(__dirname + '/src/templates/header.html'),
+            footer:(__dirname + '/src/templates/footer.html'),
+            title:'contacts',
+            filename: "./contacts.html",
+            myPageHeader: 'contacts',
+            chunks:['contacts']
         }),
 
         new MiniCssExtractPlugin({

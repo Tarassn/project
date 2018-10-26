@@ -1,2 +1,4 @@
 import style from "./_scss/about.scss";
-console.log('AAAAA');
+import burger from './modules/burger';
+
+burger.init();

@@ -1,8 +1,27 @@
 @import "~normalize.css";
 @import "styles";
+@import "header";
+@import "footer";
 body {
   font-family: $font-main;
   font-size: 16px;
   line-height: 1.5;
   color:$color-red;
+}
+.header {
+  background: rgba(0, 0, 0, 0);
+  color:$color-red;
+}
+.navigation__buttons_href{
+  a {
+    color: $color-black;
+  }
+}
+main{
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 5%;
+  align-items: left;
+  height: 100vh;
 }

@@ -1,0 +1,17 @@
+doctype html
+html
+    include templates/head
+    body
+        div.hero
+            include templates/header
+            video#heroVideo(autoplay='' muted='' loop='')
+                source(src='videos/mainProjectX.mp4' type='video/mp4')
+            section.hero__text
+                h1
+                    | Мы - пиз!#тое
+                    br
+                    | рекламное агенство
+                p Делаем хорошую рекламу
+                a(href='about.html') О нас
+        include templates/indexMain
+        include templates/footer
