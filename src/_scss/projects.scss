@@ -1,0 +1,42 @@
+@import "~normalize.css";
+@import "styles";
+@import "header";
+@import "footer";
+body {
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 1.5;
+  color:$color-black;
+}
+main{
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 5%;
+}
+.header {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: $box-shadow2;
+  color:$color-red;
+}
+.navigation__buttons_href{
+  a {
+    color: $color-black;
+  }
+}
+#projects-Container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects__item{
+  width: 30%;
+  min-width: 300px;
+  margin: 10px;
+  box-shadow: $box-shadow1;
+  cursor: pointer;
+}

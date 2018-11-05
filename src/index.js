@@ -30,8 +30,7 @@ import partner23 from "./img/partners/partners23.png";
 import partner24 from "./img/partners/partners24.png";
 
 import burger from './modules/burger';
-
-
+import headerOffsetY from './modules/headerOffsetY';
 
 let casesSlider = {
     slides:[layer1,layer2,layer3,layer4],
@@ -146,7 +145,9 @@ document.addEventListener("DOMContentLoaded", function() {
     partnersRightButton.addEventListener("click", function (){partnersSlider.right()});
 
     // burger menu
-burger.init();
+    burger.init();
+    //header onscroll background change
+    headerOffsetY.initListener();
 });
 
 

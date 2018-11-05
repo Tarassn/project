@@ -161,5 +161,8 @@
   #header__burger{
     display: block;
   }
-
+  .header-active{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: $box-shadow2;
+  }
 }

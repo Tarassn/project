@@ -11,7 +11,8 @@ module.exports = {
     entry: {
         index: './src/index.js',
         about: './src/about.js',
-        contacts: './src/contacts.js'
+        contacts: './src/contacts.js',
+        projects: './src/projects.js'
     },
     output: {
         filename: '[name].js',
@@ -81,12 +82,17 @@ module.exports = {
         }),
         new HtmlWebPackPlugin({
             template: "./src/contacts.html",
-            header:(__dirname + '/src/templates/header.html'),
-            footer:(__dirname + '/src/templates/footer.html'),
             title:'contacts',
             filename: "./contacts.html",
             myPageHeader: 'contacts',
             chunks:['contacts']
+        }),
+        new HtmlWebPackPlugin({
+            template: "./src/projects.html",
+            title:'projects',
+            filename: "./projects.html",
+            myPageHeader: 'projects',
+            chunks:['projects']
         }),
 
         new MiniCssExtractPlugin({

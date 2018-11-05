@@ -590,7 +590,6 @@ body {
 
 main {
   background-color: #fff;
-  font-size: 150%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -598,17 +597,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 80px 5%;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  line-height: 1; }
-  main h2 {
-    color: #f00; }
-  main a {
-    color: #f00;
-    text-decoration: none;
-    font-size: 200%; }
+  padding: 80px 5%; }
 
 .header {
   background: white;
@@ -618,4 +607,31 @@ main {
 
 .navigation__buttons_href a {
   color: #282828; }
+
+#projects-Container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.projects__item {
+  width: 30%;
+  min-width: 300px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 8px -1px #696969;
+          box-shadow: 2px 2px 8px -1px #696969;
+  cursor: pointer; }
 
