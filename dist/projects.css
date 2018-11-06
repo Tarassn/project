@@ -631,7 +631,20 @@ main {
   width: 30%;
   min-width: 300px;
   margin: 10px;
+  -webkit-box-shadow: 0px 1px 9px -5px #28323c;
+          box-shadow: 0px 1px 9px -5px #28323c;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: opacity 300ms, -webkit-box-shadow 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, -webkit-box-shadow 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, box-shadow 300ms, transform 300ms;
+  transition: opacity 300ms, box-shadow 300ms, transform 300ms, -webkit-box-shadow 300ms, -webkit-transform 300ms; }
+
+.projects__item:hover {
   -webkit-box-shadow: 2px 2px 8px -1px #696969;
           box-shadow: 2px 2px 8px -1px #696969;
-  cursor: pointer; }
+  opacity: 0.9;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02); }
 
