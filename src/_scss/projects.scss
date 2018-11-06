@@ -37,6 +37,13 @@ main{
   width: 30%;
   min-width: 300px;
   margin: 10px;
-  box-shadow: $box-shadow1;
+  box-shadow: $box-shadow2;
   cursor: pointer;
+  box-sizing: border-box;
+  transition: opacity 300ms, box-shadow 300ms, transform 300ms;
+}
+.projects__item:hover{
+  box-shadow: $box-shadow1;
+  opacity: 0.9;
+  transform: scale(1.02);
 }
