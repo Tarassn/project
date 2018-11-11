@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8599e134-9c22-4768-90bf-4fb27cd5f843" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsBeIT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsBeIT.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsBiosporin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsBiosporin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsDPSU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsDPSU.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsKoblevo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsKoblevo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsLenovo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsLenovo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsLiveChem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsLiveChem.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsOschad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsOschad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsOschad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsOschad2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsPharm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsPharm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsPumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsPumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsRabota.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsRabota.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsUniP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsUniP.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsWatsons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsWatsons.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/projectsWinetime.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/projectsWinetime.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_scss/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layer4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsBeIT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsBiosporin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsDPSU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsKoblevo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsLenovo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsLiveChem.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsNP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsOberig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsOlx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsOschad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsOschad2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsPharm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsPumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsRabota.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsUniP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsWatsons.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/projIMG/projectsWinetime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/head.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="60">
+              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2128">
+            <state>
               <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
@@ -230,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/templates/projectPageMain.pug" />
         <option value="$PROJECT_DIR$/src/_scss/projectPage.scss" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/templates/head.pug" />
         <option value="$PROJECT_DIR$/src/templates/footer.pug" />
         <option value="$PROJECT_DIR$/src/_scss/footer.scss" />
+        <option value="$PROJECT_DIR$/src/templates/head.pug" />
       </list>
     </option>
   </component>
@@ -268,29 +219,6 @@
             <path>
               <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="share42" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,15 +278,16 @@
       <workItem from="1539930312155" duration="2699000" />
       <workItem from="1539965053212" duration="15350000" />
       <workItem from="1540371663299" duration="22350000" />
-      <workItem from="1540592645889" duration="25066000" />
+      <workItem from="1540592645889" duration="25308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136254000" />
+    <option name="totallyTimeSpent" value="136496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="152" width="1440" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24876674" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -700,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -730,8 +645,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2128">
+        <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
         </state>
       </provider>
     </entry>
