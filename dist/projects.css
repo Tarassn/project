@@ -546,14 +546,10 @@ footer {
     font-weight: bolder;
     line-height: 3; }
 
-.ya-share2 {
-  -webkit-filter: grayscale(70%);
-          filter: grayscale(70%);
+.share42init {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
   padding: 5px; }
-  .ya-share2 .ya-share2__item {
-    padding: 2px; }
-  .ya-share2 .ya-share2__icon {
-    padding: 5px; }
 
 .footer__bottom {
   display: -webkit-box;
@@ -647,4 +643,11 @@ main {
   opacity: 0.9;
   -webkit-transform: scale(1.02);
           transform: scale(1.02); }
+
+.header__nav_submenu {
+  background-color: white; }
+
+@media screen and (max-width: 800px) {
+  .projects__item {
+    width: 80%; } }
 

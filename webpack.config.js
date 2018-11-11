@@ -12,7 +12,8 @@ module.exports = {
         index: './src/index.js',
         about: './src/about.js',
         contacts: './src/contacts.js',
-        projects: './src/projects.js'
+        projects: './src/projects.js',
+        projectPage:'./src/projectPage.js'
     },
     output: {
         filename: '[name].js',
@@ -93,6 +94,13 @@ module.exports = {
             filename: "./projects.html",
             myPageHeader: 'projects',
             chunks:['projects']
+        }),
+        new HtmlWebPackPlugin({
+            template: "./src/projectPage.html",
+            title:'projectPage',
+            filename: "./projectPage.html",
+            myPageHeader: 'projectPage',
+            chunks:['projectPage']
         }),
 
         new MiniCssExtractPlugin({

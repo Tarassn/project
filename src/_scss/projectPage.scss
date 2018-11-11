@@ -1,0 +1,42 @@
+@import "~normalize.css";
+@import "styles";
+@import "header";
+@import "footer";
+body {
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 1.5;
+  color:$color-black;
+}
+main{
+  background-color: $color-white;
+  font-size: 150%;
+  display: block;
+  padding: 80px 5%;
+  color: black;
+}
+#partnerImage{
+  width: 45%;
+  float: left;
+  margin:0 20px 10px 0;
+  box-sizing: border-box;
+}
+#partnerText{
+  display: inline;
+}
+.header {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: $box-shadow2;
+  color:$color-red;
+}
+.navigation__buttons_href{
+  a {
+    color: $color-black;
+  }
+}
+@media screen and (max-width: 800px){
+  #partnerImage{
+    width: 100%;
+    margin:0 0 30px 0;
+  }
+}

@@ -10,7 +10,7 @@ import projectsLiveChem from './img/projIMG/projectsLiveChem.jpg';
 import projectsBeIt from './img/projIMG/projectsBeIT.jpg';
 import projectsDSPU from './img/projIMG/projectsDPSU.jpg';
 import projectsLaferobreon from './img/projIMG/projectsPharm.jpg';
-import projectsNP from './img/projIMG/projectsNP.png';
+import projectsNP from './img/projIMG/projectsNP.jpg';
 import projectsRabota from './img/projIMG/projectsRabota.jpg';
 import projectsUniP from './img/projIMG/projectsUniP.jpg';
 import projectsWinetime from './img/projIMG/projectsWinetime.jpg';
@@ -40,8 +40,7 @@ let uniP =new Project('UnIP',projectsUniP, 'services');
 let winetime = new Project('Winetime',projectsWinetime, 'retail');
 let watsons = new Project('Watsons',projectsWatsons, 'retail');
 let pumbBank = new Project('ПУМБ',projectsPumb,'finances');
-let allProjects=[oschadBank,biosporin,koblevo,lenovo,oschadBank2,liveChem,beIt,dpsu,laferobreon,novaPoshta,rabota,uniP,winetime,watsons,pumbBank];
-
+export let allProjects=[oschadBank,biosporin,koblevo,lenovo,oschadBank2,liveChem,beIt,dpsu,laferobreon,novaPoshta,rabota,uniP,winetime,watsons,pumbBank];
 function showPartners() {
     let el = document.getElementById('projects-Container');
     for(let i=0;i<allProjects.length;i++){
@@ -52,6 +51,21 @@ function showPartners() {
         created.src=allProjects[i].src;
     }
 }
+function addProjectsListener(){
+    let arr = document.querySelectorAll('.projects__item');
+    for(let i=0;i<arr.length;i++){
+        arr[i].addEventListener('click', redirectProject)
+    }
+}
+function redirectProject(e){
+    let chosenProjectName = e.target.alt;
+    localStorage.setItem("chosenProject", chosenProjectName);
+    window.location='projectPage.html';
+}
+
+
+
 window.onload=function() {
     showPartners();
-}
+    addProjectsListener()
+};

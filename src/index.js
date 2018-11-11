@@ -1,8 +1,8 @@
 import style from "./_scss/main.scss";
-import layer1 from "./img/layer1.png";
-import layer2 from "./img/layer2.png";
-import layer3 from "./img/layer3.png";
-import layer4 from "./img/layer4.png";
+import layer1 from "./img/layer1.jpg";
+import layer2 from "./img/layer2.jpg";
+import layer3 from "./img/layer3.jpg";
+import layer4 from "./img/layer4.jpg";
 import video from './videos/mainProjectX.mp4';
 import partner1 from "./img/partners/partners1.png";
 import partner2 from "./img/partners/partners2.png";
@@ -155,4 +155,5 @@ window.onload = function() {
     casesSlider.start();
     partnersSlider.start();
     casesSlider.timer;
+    console.log(JSON.stringify(casesSlider.insideText))
 };
