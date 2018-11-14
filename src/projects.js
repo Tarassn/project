@@ -16,6 +16,7 @@ import projectsUniP from './img/projIMG/projectsUniP.jpg';
 import projectsWinetime from './img/projIMG/projectsWinetime.jpg';
 import projectsWatsons from './img/projIMG/projectsWatsons.jpg';
 import projectsPumb from './img/projIMG/projectsPumb.jpg';
+import {filter} from './modules/filterProjects';
 
 
 class Project {
@@ -47,25 +48,27 @@ function showPartners() {
         let created = document.createElement('img');
         el.appendChild(created);
         created.classList.add('projects__item');
+        created.classList.add('projects__item-' + allProjects[i].type);
         created.alt=allProjects[i].name;
         created.src=allProjects[i].src;
     }
 }
+
 function addProjectsListener(){
     let arr = document.querySelectorAll('.projects__item');
     for(let i=0;i<arr.length;i++){
         arr[i].addEventListener('click', redirectProject)
     }
+    filter.filtersListeners();
 }
+
 function redirectProject(e){
     let chosenProjectName = e.target.alt;
     localStorage.setItem("chosenProject", chosenProjectName);
     window.location='projectPage.html';
 }
 
-
-
 window.onload=function() {
     showPartners();
-    addProjectsListener()
+    addProjectsListener();
 };

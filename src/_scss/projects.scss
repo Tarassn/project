@@ -24,16 +24,86 @@ main{
     color: $color-black;
   }
 }
+.filters{
+  position: relative;
+}
+.filters__category{
+  font-size: 120%;
+  color: $color-red;
+}
+#filters-checkbox + label:after{
+  content: '>';
+  display: inline-block;
+  transform: rotate(90deg);
+  padding: 0 10px;
+  color: $grey2;
+}
+#filters-checkbox{
+  display: none;
+}
+#filters-checkbox+ label{
+  box-sizing: border-box;
+  padding:20px 33px;
+  cursor: pointer;
+  user-select: none;
+}
+#filters-checkbox:checked + label{
+  background-color: $footer-background;
+}
+#filters-checkbox:checked + label:after {
+  content: '-';
+  transform: rotate(0);
+}
+.filters__submenu{
+  display: none;
+  text-transform: none;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  list-style: none;
+  background-color: $footer-background;
+  line-height: 1.8;
+  padding:32px 32px 32px 31px;
+}
+.filters__submenu li>input{
+display: none;
+}
+.filters__submenu li>label{
+  color:$color-white;
+  font-size: 90%;
+  cursor:pointer;
+  user-select: none;
+}
+
+.filters__submenu li>label:before{
+
+}
+.filters__submenu li>label span{
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin-right: 5px;
+  vertical-align:middle;
+  background:url("https://img.icons8.com/metro/50/000000/unchecked-checkbox.png");
+  background-size: cover;
+}
+.filters__submenu li>input:checked + label span{
+  background:url("https://img.icons8.com/metro/50/000000/checked-checkbox.png");
+  background-size: cover;
+}
+#filters-checkbox:checked ~ .filters__submenu{
+  display: block;
+}
 #projects-Container{
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap;
 }
-.projects__item{
+#projects-Container img{
   width: 30%;
   min-width: 300px;
   margin: 10px;
@@ -42,7 +112,7 @@ main{
   box-sizing: border-box;
   transition: opacity 300ms, box-shadow 300ms, transform 300ms;
 }
-.projects__item:hover{
+#projects-Container img:hover{
   box-shadow: $box-shadow1;
   opacity: 0.9;
   transform: scale(1.02);
@@ -51,7 +121,7 @@ main{
   background-color: white;
 }
 @media screen and (max-width: 800px){
-  .projects__item{
+  #projects-Container img{
     width: 80%;
   }
 }
