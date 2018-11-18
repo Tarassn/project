@@ -18,11 +18,62 @@ body {
     color: $color-black;
   }
 }
+.header__nav_submenu{
+  background-color: white;
+}
 main{
   background-color: $color-white;
   display: flex;
   flex-direction: column;
   padding: 80px 5%;
   align-items: left;
-  height: 100vh;
+}
+.about__first-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $color-white;
+  padding: 50px 5%;
+  box-sizing: border-box;
+}
+.about__first-block h2{
+  font-size: 250%;
+  color: $color-black;
+}
+.about__first-block_text{
+  color: $color-black;
+  min-width: 300px;
+  width: 60%;
+  font-size: 150%;
+  font-weight: lighter;
+}
+.about__first-block_red-square{
+  width: 160px;
+  height: 15px;
+  background-color: $color-red;
+}
+.about__first-block_boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 80px 0 0 0;
+  img{
+    width: 100px;
+  }
+  section{
+    display: flex;
+    padding: 10px;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $grey2;
+  }
+}
+@media screen and (max-width: 800px){
+  .about__first-block_boxes{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

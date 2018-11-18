@@ -35,3 +35,67 @@ main{
     color: $color-black;
   }
 }
+.header__nav_submenu{
+  background-color: white;
+}
+.question-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question-container{
+  width: 100%;
+  margin: 50px 0;
+}
+.question-container h3{
+  margin-top: 30px;
+  text-align: center;
+  width: 98%;
+}
+.question{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.question__input{
+  height: 40px;
+  width: 400px;
+  color: $grey2;
+  font-size: 100%;
+  padding: 3px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  outline: none;
+  margin-bottom: 5px;
+}
+#question__textarea{
+  height: 100px;
+  resize: none;
+}
+#form-submit{
+  margin: 30px;
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 80%;
+  line-height: 1.1;
+  font-weight: bold;
+  white-space: nowrap;
+  color: $color-white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: $color-red;
+  cursor: pointer;
+  transition: opacity 200ms;
+}
+@media screen and (max-width: 800px) {
+  .question__input {
+    width: 300px;
+  }
+}

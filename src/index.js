@@ -36,18 +36,19 @@ let casesSlider = {
     slides:[layer1,layer2,layer3,layer4],
     insideText:[
         ['OBERIG', 'Сила в тобі'],
-        ['Лаферобреон', 'Биофарма'],
+        ['Лаферобрион', 'Биофарма'],
         ['Koblevo', 'Вино того варте'],
         ['Live Chemical', 'Molecules are Everything'],
 
     ],
     frame:0,
     element: document.getElementById("casesText"),
+    button: document.getElementById('casesButton'),
     set: function(image) {
         this.element.parentNode.style.backgroundImage = "url("+image+")";
         this.element.children[1].innerHTML=this.insideText[this.frame][0];
         this.element.children[2].innerHTML=this.insideText[this.frame][1];
-
+        this.button.setAttribute('data-path', this.insideText[this.frame][0])
     },
     start: function() {
         this.set(this.slides[this.frame]);
@@ -137,7 +138,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let casesRightButton=document.getElementById("casesRightButton");
     casesRightButton.addEventListener("click", function (){casesSlider.right()});
     casesLeftButton.addEventListener("click", function (){casesSlider.left()});
-
+    casesSlider.button.addEventListener("click", function () {
+        localStorage.setItem("chosenProject", casesSlider.button.getAttribute('data-path'));
+    });
     // partners slider listeners
     let partnersLeftButton=document.getElementById("partnersLeftButton");
     let partnersRightButton=document.getElementById("partnersRightButton");

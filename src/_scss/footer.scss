@@ -56,5 +56,8 @@ footer{
     .footer__nav_submenu{
      min-width: 80px;
     }
+    :first-child{
+      order: 4;
+    }
   }
 }

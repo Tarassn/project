@@ -34,13 +34,6 @@ h1{
   overflow: hidden;
 }
 @import 'header';
-//.navigation__buttons_href:before{
-//  content: '|';
-//  padding: 0 20px;
-//}
-//.navigation__buttons_href:first-child:before{
-//  content: none;
-//}
 .hero__text{
   font-size: 140%;
   width: 80%;
@@ -111,7 +104,7 @@ main{
   color: $color-white;
     a{
     display: inline-block;
-    padding: 10px 40px 9px;
+    padding: 12px 40px;
     font-size: 50%;
     line-height: 1.1;
     font-weight: bold;

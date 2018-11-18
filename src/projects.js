@@ -16,6 +16,7 @@ import projectsUniP from './img/projIMG/projectsUniP.jpg';
 import projectsWinetime from './img/projIMG/projectsWinetime.jpg';
 import projectsWatsons from './img/projIMG/projectsWatsons.jpg';
 import projectsPumb from './img/projIMG/projectsPumb.jpg';
+import projectsOberig from './img/projIMG/projectsOberig.jpg';
 import {filter} from './modules/filterProjects';
 
 
@@ -28,7 +29,7 @@ class Project {
 }
 let oschadBank = new Project('Ощадбанк',projectsOschad,'finances');
 let biosporin = new Project('Биоспорин',projectsBiosporin,'pharmacy');
-let koblevo = new Project('Коблево',projectsKoblevo,'retail');
+let koblevo = new Project('Koblevo',projectsKoblevo,'retail');
 let lenovo = new Project('Lenovo',projectsLenovo,'retail');
 let oschadBank2 = new Project('Ощадбанк',projectsOschad2,'finances');
 let liveChem = new Project('Live Chemicals',projectsLiveChem,'pharmacy');
@@ -41,7 +42,9 @@ let uniP =new Project('UnIP',projectsUniP, 'services');
 let winetime = new Project('Winetime',projectsWinetime, 'retail');
 let watsons = new Project('Watsons',projectsWatsons, 'retail');
 let pumbBank = new Project('ПУМБ',projectsPumb,'finances');
-export let allProjects=[oschadBank,biosporin,koblevo,lenovo,oschadBank2,liveChem,beIt,dpsu,laferobreon,novaPoshta,rabota,uniP,winetime,watsons,pumbBank];
+let Oberig =new Project('OBERIG',projectsOberig,'retail');
+export let allProjects=[oschadBank,biosporin,koblevo,lenovo,oschadBank2,liveChem,beIt,dpsu,laferobreon,novaPoshta,rabota,
+    uniP,winetime,watsons,pumbBank,Oberig];
 function showPartners() {
     let el = document.getElementById('projects-Container');
     for(let i=0;i<allProjects.length;i++){

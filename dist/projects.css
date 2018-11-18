@@ -375,7 +375,7 @@ template {
   top: 15px;
   left: 0;
   list-style: none;
-  line-height: 1.8;
+  line-height: 2.2;
   padding: 0 15px 15px 15px; }
 
 .navigation__buttons_href:hover > .header__nav_submenu {
@@ -484,7 +484,11 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0; }
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 100px;
+    padding: 10px; }
     .navigation__buttons_href a {
       color: #282828; }
   #header__burger {
@@ -576,7 +580,11 @@ footer {
   .footer__nav {
     width: 90%; }
     .footer__nav .footer__nav_submenu {
-      min-width: 80px; } }
+      min-width: 80px; }
+    .footer__nav :first-child {
+      -webkit-box-ordinal-group: 5;
+          -ms-flex-order: 4;
+              order: 4; } }
 
 body {
   font-family: "Fira Sans", sans-serif;
@@ -605,7 +613,8 @@ main {
   color: #282828; }
 
 .filters {
-  position: relative; }
+  position: relative;
+  padding-bottom: 40px; }
 
 .filters__category {
   font-size: 120%;
@@ -669,11 +678,11 @@ main {
   height: 19px;
   margin-right: 5px;
   vertical-align: middle;
-  background: url("https://img.icons8.com/metro/50/000000/unchecked-checkbox.png");
+  background: url("/src/img/unchecked-checkbox.png");
   background-size: cover; }
 
 .filters__submenu li > input:checked + label span {
-  background: url("https://img.icons8.com/metro/50/000000/checked-checkbox.png");
+  background: url("/src/img/checked-checkbox.png");
   background-size: cover; }
 
 #filters-checkbox:checked ~ .filters__submenu {

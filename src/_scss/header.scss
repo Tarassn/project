@@ -52,7 +52,7 @@
   top: 15px;
   left: 0;
   list-style: none;
-  line-height: 1.8;
+  line-height: 2.2;
   padding: 0 15px 15px 15px;
 }
 .navigation__buttons_href:hover > .header__nav_submenu{
@@ -153,7 +153,9 @@
   }
   .navigation__buttons_href{
     flex-direction: column;
-    padding: 0;
+    align-items: baseline;
+    width: 100px;
+    padding: 10px;
     a{
       color: $color-black;
     }
