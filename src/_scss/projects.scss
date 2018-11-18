@@ -85,11 +85,11 @@ display: none;
   height:19px;
   margin-right: 5px;
   vertical-align:middle;
-  background:url("/src/img/unchecked-checkbox.png");
+  background:url("../img/unchecked-checkbox.png");
   background-size: cover;
 }
 .filters__submenu li>input:checked + label span{
-  background:url("/src/img/checked-checkbox.png");
+  background:url("../img/checked-checkbox.png");
   background-size: cover;
 }
 #filters-checkbox:checked ~ .filters__submenu{

@@ -17,6 +17,8 @@ import projectsWinetime from './img/projIMG/projectsWinetime.jpg';
 import projectsWatsons from './img/projIMG/projectsWatsons.jpg';
 import projectsPumb from './img/projIMG/projectsPumb.jpg';
 import projectsOberig from './img/projIMG/projectsOberig.jpg';
+import './img/checked-checkbox.png';
+import './img/unchecked-checkbox.png';
 import {filter} from './modules/filterProjects';
 
 
