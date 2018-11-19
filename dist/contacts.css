@@ -702,6 +702,9 @@ main {
   -webkit-transition: opacity 200ms;
   transition: opacity 200ms; }
 
+#form-submit:hover {
+  opacity: 0.9; }
+
 @media screen and (max-width: 800px) {
   .question__input {
     width: 300px; } }

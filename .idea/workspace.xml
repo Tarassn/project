@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8599e134-9c22-4768-90bf-4fb27cd5f843" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/share42/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/share42/share42.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projectPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_scss/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/contacts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_scss/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scss/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/checked-checkbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/checked-checkbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/unchecked-checkbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/unchecked-checkbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/projectsMain.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/projectsMain.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,6 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_scss/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,20 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_scss/projects.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="260">
+              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects.pug">
+      <file leaf-file-name="contacts.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contacts.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -67,6 +77,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_scss/contacts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -126,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/templates/projectPageMain.pug" />
         <option value="$PROJECT_DIR$/src/_scss/projectPage.scss" />
         <option value="$PROJECT_DIR$/src/templates/head.pug" />
-        <option value="$PROJECT_DIR$/src/templates/projectsMain.pug" />
         <option value="$PROJECT_DIR$/dist/projectPage.js" />
         <option value="$PROJECT_DIR$/src/modules/filterProjects.js" />
         <option value="$PROJECT_DIR$/src/templates/header.pug" />
@@ -136,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/templates/aboutMain.pug" />
         <option value="$PROJECT_DIR$/src/contacts.pug" />
         <option value="$PROJECT_DIR$/src/_scss/main.scss" />
-        <option value="$PROJECT_DIR$/src/_scss/contacts.scss" />
         <option value="$PROJECT_DIR$/src/templates/contactsMain.pug" />
         <option value="$PROJECT_DIR$/src/contacts.js" />
         <option value="$PROJECT_DIR$/src/index.pug" />
@@ -144,7 +161,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/_scss/footer.scss" />
         <option value="$PROJECT_DIR$/src/projects.js" />
+        <option value="$PROJECT_DIR$/src/templates/projectsMain.pug" />
         <option value="$PROJECT_DIR$/src/_scss/projects.scss" />
+        <option value="$PROJECT_DIR$/src/_scss/contacts.scss" />
       </list>
     </option>
   </component>
@@ -163,7 +182,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
+    <option name="x" value="98" />
     <option name="y" value="115" />
     <option name="width" value="1440" />
     <option name="height" value="730" />
@@ -184,17 +203,6 @@
             <path>
               <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,12 +210,6 @@
               <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/dist/img" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src" />
@@ -267,15 +270,15 @@
       <workItem from="1539930312155" duration="2699000" />
       <workItem from="1539965053212" duration="15350000" />
       <workItem from="1540371663299" duration="22350000" />
-      <workItem from="1540592645889" duration="62615000" />
+      <workItem from="1540592645889" duration="64954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173803000" />
+    <option name="totallyTimeSpent" value="176142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="115" width="1440" height="730" extended-state="0" />
+    <frame x="98" y="115" width="1440" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876674" />
@@ -323,20 +326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="59" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret column="3466" selection-start-column="3466" selection-end-column="3466" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -454,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/projectsMain.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/filterProjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
@@ -517,31 +499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scss/contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_scss/about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
           <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -605,6 +566,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -612,13 +583,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/checked-checkbox.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="59" lean-forward="true" selection-start-column="59" selection-end-column="59" />
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
           <folding>
             <element signature="e#2255#2259#0" expanded="true" />
             <element signature="e#2436#2440#1" expanded="true" />
@@ -629,14 +600,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects.js">
+    <entry file="file://$PROJECT_DIR$/src/img/checked-checkbox.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/projectsMain.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="27" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects.pug">
@@ -648,8 +624,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_scss/projects.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        <state relative-caret-position="260">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scss/contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -612,9 +612,23 @@ main {
 .navigation__buttons_href a {
   color: #282828; }
 
+.projects__top-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .filters {
-  position: relative;
-  padding-bottom: 40px; }
+  position: relative; }
 
 .filters__category {
   font-size: 120%;
@@ -658,7 +672,7 @@ main {
   list-style: none;
   background-color: #28323c;
   line-height: 1.8;
-  padding: 32px 32px 32px 31px; }
+  padding: 29px; }
 
 .filters__submenu li > input {
   display: none; }
@@ -676,7 +690,7 @@ main {
   display: inline-block;
   width: 19px;
   height: 19px;
-  margin-right: 5px;
+  margin-right: 10px;
   vertical-align: middle;
   background: url(./img/unchecked-checkbox.png);
   background-size: cover; }
@@ -734,4 +748,10 @@ main {
 @media screen and (max-width: 800px) {
   #projects-Container img {
     width: 80%; } }
+
+@media screen and (max-width: 1024px) {
+  #projects-Container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 

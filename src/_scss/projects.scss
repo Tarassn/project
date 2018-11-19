@@ -24,9 +24,14 @@ main{
     color: $color-black;
   }
 }
+.projects__top-block{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+  justify-content: space-between;
+}
 .filters{
   position: relative;
-  padding-bottom: 40px;
 }
 .filters__category{
   font-size: 120%;
@@ -64,7 +69,7 @@ main{
   list-style: none;
   background-color: $footer-background;
   line-height: 1.8;
-  padding:32px 32px 32px 31px;
+  padding:29px;
 }
 .filters__submenu li>input{
 display: none;
@@ -83,7 +88,7 @@ display: none;
   display:inline-block;
   width:19px;
   height:19px;
-  margin-right: 5px;
+  margin-right: 10px;
   vertical-align:middle;
   background:url("../img/unchecked-checkbox.png");
   background-size: cover;
@@ -124,5 +129,10 @@ display: none;
 @media screen and (max-width: 800px){
   #projects-Container img{
     width: 80%;
+  }
+}
+@media screen and (max-width: 1024px){
+  #projects-Container{
+    justify-content: center;
   }
 }
