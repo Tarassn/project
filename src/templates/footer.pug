@@ -38,10 +38,19 @@ footer
                 a.a2a_button_twitter
                 a.a2a_button_pinterest
                 a.a2a_button_telegram
-            script.
+            script(type='text/javascript').
                 var a2a_config = a2a_config || {};
                 a2a_config.num_services = 6;
-            script(async='' src='https://static.addtoany.com/menu/page.js')
+                function downloadJSAtOnload() {
+                    var element = document.createElement("script");
+                    element.src = "https://static.addtoany.com/menu/page.js";
+                    document.body.appendChild(element);
+                }
+                if (window.addEventListener)
+                    window.addEventListener("load", downloadJSAtOnload, false);
+                else if (window.attachEvent)
+                    window.attachEvent("onload", downloadJSAtOnload);
+                else window.onload = downloadJSAtOnload;
             // AddToAny END
 
             //script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
