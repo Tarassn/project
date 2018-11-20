@@ -30,10 +30,24 @@ footer
                     a(href='contacts.html') Контакты
     div.footer__bottom
         a(href='index.html')
-            img.footer-logo(src='./img/logo.png' alt='logo image' )
-        <!-- Share 42 icons! -->
-        div(class="share42init")
-            <!-- Share 42 icons! -->
-            script(type="text/javascript" src="./dist/share42/share42.js")
+            img.footer-logo(src='./img/logo.png' alt='logo image')
+        .share_buttons
+            // AddToAny BEGIN
+            .a2a_kit.a2a_kit_size_32.a2a_default_style
+                a.a2a_button_facebook
+                a.a2a_button_twitter
+                a.a2a_button_pinterest
+                a.a2a_button_telegram
+            script.
+                var a2a_config = a2a_config || {};
+                a2a_config.num_services = 6;
+            script(async='' src='https://static.addtoany.com/menu/page.js')
+            // AddToAny END
+
+            //script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+            //a.twitter-share-button(href='https://twitter.com/intent/tweet?text=Рассказать%20о%20рекламном%20агенстве' data-size='large')
+            //    | Твитнуть
+            //script(type='text/javascript' async='' defer='' src='//assets.pinterest.com/js/pinit.js')
+            //a(href='https://www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark')
         div.footer__copyright Taras &copy; 2018
 

@@ -2,11 +2,6 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
-let fs = require('fs');
-
-const header = fs.readFileSync(__dirname + '/src/templates/header.html');
-const footer = fs.readFileSync(__dirname + '/src/templates/footer.html');
-
 module.exports = {
     entry: {
         index: './src/index.js',
