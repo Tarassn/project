@@ -8,6 +8,10 @@ body {
   line-height: 1.5;
   color:$color-red;
 }
+h2{
+  font-size: 250%;
+  color: $color-black;
+}
 .header {
   background: rgba(255, 255, 255, 1);
   box-shadow: $box-shadow2;
@@ -35,10 +39,6 @@ main{
   background-color: $color-white;
   padding: 50px 5%;
   box-sizing: border-box;
-}
-.about__first-block h2{
-  font-size: 250%;
-  color: $color-black;
 }
 .about__first-block_text{
   color: $color-black;
@@ -71,9 +71,84 @@ main{
     color: $grey2;
   }
 }
+.articles-square{
+  padding: 10px 5%;
+}
+#about__articles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 3%;
+}
+.articles__item{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  padding-bottom: 30px;
+  img{
+    min-width: 250px;
+    max-width: 320px;
+  }
+}
+.articles__item_text-block{
+  font-size: 140%;
+  min-width: 100px;
+  width: 40%;
+  padding: 10px;
+  color: $color-black;
+  h6{
+    font-weight: lighter;
+    color: $grey2;
+    margin: 0;
+  }
+}
+.pagination-container {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: $color-red;
+  color: white;
+  border: 1px solid $color-red;
+}
+
+.pagination a:hover:not(.active) {background-color: $grey1;}
+@media screen and (min-width: 1024px){
+  .articles__item{
+    width: 50%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px){
+  .articles__item{
+    flex-direction: column;
+    width: 310px;
+  }
+}
 @media screen and (max-width: 800px){
   .about__first-block_boxes{
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+@media screen and (max-width: 700px){
+  .articles__item{
+    margin: 0 auto;
+  }
+
 }

@@ -46,17 +46,7 @@ footer
                     element.src = "https://static.addtoany.com/menu/page.js";
                     document.body.appendChild(element);
                 }
-                if (window.addEventListener)
-                    window.addEventListener("load", downloadJSAtOnload, false);
-                else if (window.attachEvent)
-                    window.attachEvent("onload", downloadJSAtOnload);
-                else window.onload = downloadJSAtOnload;
+                window.addEventListener("load", downloadJSAtOnload, false);
             // AddToAny END
-
-            //script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-            //a.twitter-share-button(href='https://twitter.com/intent/tweet?text=Рассказать%20о%20рекламном%20агенстве' data-size='large')
-            //    | Твитнуть
-            //script(type='text/javascript' async='' defer='' src='//assets.pinterest.com/js/pinit.js')
-            //a(href='https://www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark')
         div.footer__copyright Taras &copy; 2018
 

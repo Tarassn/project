@@ -592,6 +592,10 @@ body {
   line-height: 1.5;
   color: #f00; }
 
+h2 {
+  font-size: 250%;
+  color: #282828; }
+
 .header {
   background: white;
   -webkit-box-shadow: 0px 1px 9px -5px #28323c;
@@ -633,10 +637,6 @@ main {
   padding: 50px 5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-
-.about__first-block h2 {
-  font-size: 250%;
-  color: #282828; }
 
 .about__first-block_text {
   color: #282828;
@@ -683,6 +683,88 @@ main {
     text-align: center;
     color: #696969; }
 
+.articles-square {
+  padding: 10px 5%; }
+
+#about__articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 3%; }
+
+.articles__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 400px;
+  padding-bottom: 30px; }
+  .articles__item img {
+    min-width: 250px;
+    max-width: 320px; }
+
+.articles__item_text-block {
+  font-size: 140%;
+  min-width: 100px;
+  width: 40%;
+  padding: 10px;
+  color: #282828; }
+  .articles__item_text-block h6 {
+    font-weight: lighter;
+    color: #696969;
+    margin: 0; }
+
+.pagination-container {
+  text-align: center; }
+
+.pagination {
+  display: inline-block; }
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px; }
+
+.pagination a.active {
+  background-color: #f00;
+  color: white;
+  border: 1px solid #f00; }
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd; }
+
+@media screen and (min-width: 1024px) {
+  .articles__item {
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+@media screen and (max-width: 1024px) {
+  .articles__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 310px; } }
+
 @media screen and (max-width: 800px) {
   .about__first-block_boxes {
     -ms-flex-wrap: wrap;
@@ -690,4 +772,8 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
+
+@media screen and (max-width: 700px) {
+  .articles__item {
+    margin: 0 auto; } }
 
