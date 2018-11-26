@@ -1256,8 +1256,10 @@ main {
   position: relative; }
 
 .filters__category {
+  display: inline-block;
   font-size: 120%;
-  color: #f00; }
+  color: #f00;
+  width: 190px; }
 
 #filters-checkbox + label:after {
   content: '>';
@@ -1292,12 +1294,12 @@ main {
   display: none;
   text-transform: none;
   position: absolute;
-  top: 10px;
+  top: 40px;
   left: 0;
   list-style: none;
   background-color: #28323c;
   line-height: 1.8;
-  padding: 29px; }
+  padding: 30px 31px 30px 30px; }
 
 .filters__submenu li > input {
   display: none; }
