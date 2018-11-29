@@ -1,6 +1,8 @@
 import style from "./_scss/projects.scss";
 import burger from './modules/burger';
 burger.init();
+import addSharingIcons from './modules/addSharingIcons';
+addSharingIcons();
 import projectsOschad from './img/projIMG/projectsOschad.jpg';
 import projectsBiosporin from './img/projIMG/projectsBiosporin.jpg';
 import projectsKoblevo from './img/projIMG/projectsKoblevo.jpg';

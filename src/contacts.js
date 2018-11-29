@@ -1,7 +1,8 @@
 import style from "./_scss/contacts.scss";
 import burger from './modules/burger';
-
 burger.init();
+import addSharingIcons from './modules/addSharingIcons';
+addSharingIcons();
 // let contactsForm=document.querySelector('.question');
 // let contactsButton= document.getElementById('form-submit');
 // contactsButton.addEventListener('click',function () {

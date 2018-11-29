@@ -430,6 +430,9 @@ h1 {
   min-width: 300px;
   overflow: hidden; }
 
+#preloadSliderImages {
+  display: none; }
+
 .header {
   background: rgba(0, 0, 0, 0);
   color: #fff;
@@ -661,7 +664,7 @@ main {
           justify-content: flex-start;
   min-height: 700px;
   background-color: #fff;
-  padding: 50px 5%;
+  padding: 50px 8%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
@@ -704,6 +707,9 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 300px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 33%; }
 
 .cases {

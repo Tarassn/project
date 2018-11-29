@@ -31,6 +31,7 @@ import partner24 from "./img/partners/partners24.png";
 
 import burger from './modules/burger';
 import headerOffsetY from './modules/headerOffsetY';
+import addSharingIcons from './modules/addSharingIcons';
 
 let casesSlider = {
     slides:[layer1,layer2,layer3,layer4],
@@ -151,6 +152,7 @@ document.addEventListener("DOMContentLoaded", function() {
     burger.init();
     //header onscroll background change
     headerOffsetY.initListener();
+    addSharingIcons();
 });
 
 

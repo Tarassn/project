@@ -1,6 +1,8 @@
 import style from "./_scss/about.scss";
 import burger from './modules/burger';
 burger.init();
+import addSharingIcons from './modules/addSharingIcons';
+addSharingIcons();
 import articleImg1 from './img/articles/articles1.jpg'
 import articleImg2 from './img/articles/articles2.jpg'
 import articleImg3 from './img/articles/articles3.jpg'
