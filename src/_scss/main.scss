@@ -122,7 +122,6 @@ main{
   }
   a:hover{
     opacity: 0.9;
-
   }
 }
 .cases-arrows {
@@ -133,6 +132,7 @@ main{
   color: $color-red;
   text-align: center;
   cursor: pointer;
+  user-select: none;
 }
 .partners {
   display: flex;
@@ -164,6 +164,7 @@ main{
   display: block;
   width: 30px;
   text-align: center;
+  user-select: none;
 }
 .partners__logos {
     width:99%;
@@ -194,9 +195,6 @@ main{
   }
 }
 @media screen and (max-width: 1024px) {
-  .header__nav{
-
-  }
 
 }
 @media screen and (max-width: 600px){
@@ -206,7 +204,6 @@ main{
       margin: 20px 0;
     }
   }
-
 }
 
 

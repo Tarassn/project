@@ -759,7 +759,11 @@ main {
   font-family: "PT Sans Narrow", sans-serif;
   color: #f00;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .partners {
   display: -webkit-box;
@@ -805,7 +809,11 @@ main {
   font-family: "PT Sans Narrow", sans-serif;
   display: block;
   width: 30px;
-  text-align: center; }
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .partners__logos {
   width: 99%;
