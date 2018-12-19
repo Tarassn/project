@@ -10,14 +10,11 @@ import {partnersSlider,addPartnersListeners} from "./modules/partnersSlider";
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    // cases slider listeners
-    addCasesListeners();
-    // partners slider listeners
-    addPartnersListeners();
     casesSlider.start();
     partnersSlider.start();
     casesSlider.timer;
-    // burger menu
+    addCasesListeners();
+    addPartnersListeners();
     burger.init();
     //header onscroll background change
     headerOffsetY.initListener();
